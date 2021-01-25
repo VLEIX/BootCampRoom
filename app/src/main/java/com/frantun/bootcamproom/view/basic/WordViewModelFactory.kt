@@ -1,4 +1,4 @@
-package com.frantun.bootcamproom
+package com.frantun.bootcamproom.view.basic
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

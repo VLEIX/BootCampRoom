@@ -1,4 +1,4 @@
-package com.frantun.bootcamproom.adapter
+package com.frantun.bootcamproom.interfaces
 
 import com.frantun.bootcamproom.database.Word
 
