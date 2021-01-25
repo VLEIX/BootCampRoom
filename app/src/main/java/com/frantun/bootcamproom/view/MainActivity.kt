@@ -8,6 +8,7 @@ import com.frantun.bootcamproom.adapter.RoomTopicListener
 import com.frantun.bootcamproom.adapter.RoomTopicsAdapter
 import com.frantun.bootcamproom.databinding.ActivityMainBinding
 import com.frantun.bootcamproom.model.RoomTopic
+import com.frantun.bootcamproom.view.advanced.OwnersActivity
 import com.frantun.bootcamproom.view.basic.WordsActivity
 
 class MainActivity : AppCompatActivity() {
@@ -24,9 +25,7 @@ class MainActivity : AppCompatActivity() {
         roomTopicsAdapter = RoomTopicsAdapter(RoomTopicListener { position ->
             when (position) {
                 0 -> startActivity(Intent(this, WordsActivity::class.java))
-                1 -> {
-
-                }
+                1 -> startActivity(Intent(this, OwnersActivity::class.java))
             }
         })
         binding.roomTopicsRecycler.apply {

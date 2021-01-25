@@ -21,6 +21,8 @@
         <activity android:name=".view.basic.WordsActivity"/>
 
         <activity android:name=".view.basic.NewWordActivity"/>
+
+        <activity android:name=".view.advanced.OwnersActivity"/>
     </application>
 
 </manifest>
